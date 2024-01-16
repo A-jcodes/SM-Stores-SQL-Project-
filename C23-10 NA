@@ -1,0 +1,94 @@
+-- 1. How many records are in SM-Stores Orders table
+select count(*)
+from orders;
+
+select count(Distinct "OrderID")
+from orders;
+
+-- 2. How many Cities do SM-stores have properties in.
+Select count(Distinct "PropertyCity")
+from propertyinfo;
+
+select *
+from propertyinfo
+
+-- 3. How many orders were placed in each date stated in the orders table.
+Select "OrderDate", count("OrderID") as "No of Orders"
+from orders
+group by "OrderDate"
+Order by "OrderDate";
+
+
+Select count (distinct "Quantity") from orders;
+
+-- 4. Return all records where the quantity purchased is above 5.
+Select distinct "OrderID"
+from orders 
+where "Quantity"> 5; -- Adriana
+
+select *
+from orders
+where "Quantity" > 5;
+
+-- 5.  A customer has requested for a refund claiming they procured goods from our store. 
+-- Provide all the details of this order if the OrderID is = ‘3896’
+select "OrderID", "OrderDate", "PropertyCity", "PropertyState", "ProductName", "ProductCategory", "Price", "Quantity"
+from orders
+left join propertyinfo
+on orders."PropertyID" = propertyinfo."PropID"
+left join products
+on orders."ProductID" = products."ProductID"
+where "OrderID" = 3896
+
+-- orders table; productid 11, 14, 25, 50
+-- products table; productid 11, 14, 25
+
+
+-- PropertyID as 11, ProductID as 81
+select *
+from propertyinfo
+where "PropID" = 11;
+
+select *
+from products
+where "ProductID" = 81;
+
+-- 6. Can you process the number of orders we had in each year of SM-stores data. 
+Select "OrderDate", count("OrderDate")
+from orders
+
+select extract(Year from "OrderDate") as Year, count("OrderID") as "No of Orders"
+from orders
+Group by Year
+
+-- 7. Which category is the most frequented in the year 2015. 
+Select extract(Year from "OrderDate") as Year, max("OrderID") from orders
+
+select * from products
+select * from orders
+select * from propertyinfo
+
+select "Quantity","OrderID" from orders
+group by "OrderID"
+order by "Quantity" desc
+
+
+
+
+select "ProductCategory", count("OrderID") as "No of Orders" from orders as o
+left join products as p
+on p."ProductID" = o."ProductID"
+where extract(Year from "OrderDate") = 2015
+Group by "ProductCategory"
+order by "No of Orders" Desc
+Limit 1;
+
+
+-- 8. Which category  has the highest sales in the year 2016.
+select "ProductCategory", Sum("Quantity" * "Price") as Total_Sales
+from orders as o
+left join products as p
+on p."ProductID" = o."ProductID"
+where extract(Year from "OrderDate") = 2016
+Group by "ProductCategory"
+Limit 1;
