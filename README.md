@@ -3,7 +3,7 @@
 
 # SM-Stores-SQL-Project-
 ## CASE STUDY USING SQL
-SM-Stores are a renowned retail company committed to providing high quality products. Their mission is to meet the diverse needs and preferences of customers through an extensive range of merchandise and outstanding customer service. SM-Stores has properties scattered across different cities in the United States. They require an understanding of their status to better plan for future endeavors.
+SM-Stores is a renowned retail company committed to providing high-quality products. Their mission is to meet the diverse needs and preferences of customers through an extensive range of merchandise and outstanding customer service. SM-Stores has properties scattered across different cities in the United States. They require an understanding of their status to better plan for future endeavours.
 
 ## DATA DICTIONARY
 1.	Orders Table;
@@ -22,9 +22,8 @@ SM-Stores are a renowned retail company committed to providing high quality prod
 14.	PropertyCity: The name of the city where the property is located.
 15.	PropertyState: The name of the state where the property is located.
 
-
-
-## TAILORED DATA ANALYTICS
+**Task:**
+My task was to conduct a comprehensive data analysis project using SQL to analyze SM-Stores' sales data. The goal was to identify patterns, trends, and key performance indicators that could inform strategic business decisions and improve overall sales effectiveness. To achieve this, I asked the following questions:
 
 1. How many records are in SM-Stores Orders table
 2. How many Cities do SM-stores have properties in.
@@ -42,3 +41,17 @@ SM-Stores are a renowned retail company committed to providing high quality prod
 14. a). Find all orders for ‘Permanent Markers’, ‘Sticky Notes’ and ‘Note Pads’
 b). Find the number of ‘Permanent Markers’, ‘Sticky Notes’ and ‘Note Pads’ ordered for year 2015.
 15. SM-stores wants to re-evaluate the prices of their goods, provide a list of their products, categories and the corresponding prices. Group their products into cheap(<$50), affordable(<$100), expensive. Find the number of products in each category.
+
+**Action:**
+I began by thoroughly understanding the company's business goals and data landscape. Utilizing SQL, I crafted complex queries to extract, clean, and transform the sales data into a usable format. Employing advanced analytical techniques, I conducted in-depth exploratory data analysis to uncover correlations, outliers, and potential areas for improvement.
+
+I implemented various SQL functions, joins, and aggregations to derive meaningful insights from the data. Furthermore, I created visualizations and reports to present the findings in a clear and comprehensible manner. The analysis delved into product performance, customer behavior, regional trends, and seasonality, among other factors.
+
+**Result:**
+The data analysis project delivered actionable insights that significantly impacted SM-Stores' business strategy. The company gained a deeper understanding of its customer base, identified top-performing products, and optimized inventory management. Sales forecasting accuracy improved, leading to more informed decision-making and increased revenue.
+
+Additionally, the insights obtained facilitated targeted marketing efforts and personalized customer engagement strategies, fostering stronger customer relationships. The SQL-driven data analysis provided SM-Stores with a competitive edge in the dynamic retail landscape, positioning the company for sustained growth and success.
+
+
+
+
