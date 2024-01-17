@@ -1,10 +1,8 @@
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.linkedin.com%2Fpulse%2Fhow-learn-sql-data-analytics-comprehensive-guide-nitin-vairal&psig=AOvVaw2bLLQmcj6SDz8PN8gNTzEk&ust=1705544534451000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCMCptdqu44MDFQAAAAAdAAAAABAD
-
-## SM-Stores-SQL-Project-
-# CASE STUDY USING SQL
+# SM-Stores-SQL-Project-
+## CASE STUDY USING SQL
 SM-Stores are a renowned retail company committed to providing high quality products. Their mission is to meet the diverse needs and preferences of customers through an extensive range of merchandise and outstanding customer service. SM-Stores has properties scattered across different cities in the United States. They require an understanding of their status to better plan for future endeavors.
 
-# DATA DICTIONARY
+## DATA DICTIONARY
 Orders Table;
 OrderID: The unique identifier or ID of each order.
 OrderDate: The date the order was placed.
@@ -21,7 +19,7 @@ PropID: The unique identifier or ID of each property.
 PropertyCity: The name of the city where the property is located.
 PropertyState: The name of the state where the property is located.
 
-# TAILORED DATA ANALYTICS
+## TAILORED DATA ANALYTICS
 
 How many records are in SM-Stores Orders table
 2. How many Cities do SM-stores have properties in.
