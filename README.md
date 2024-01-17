@@ -1,27 +1,32 @@
+![image](https://github.com/A-jcodes/SM-Stores-SQL-Project-/assets/96001998/e787bdcf-613e-462c-9da3-3d05654366b4)
+
+
 # SM-Stores-SQL-Project-
 ## CASE STUDY USING SQL
 SM-Stores are a renowned retail company committed to providing high quality products. Their mission is to meet the diverse needs and preferences of customers through an extensive range of merchandise and outstanding customer service. SM-Stores has properties scattered across different cities in the United States. They require an understanding of their status to better plan for future endeavors.
 
 ## DATA DICTIONARY
-Orders Table;
-OrderID: The unique identifier or ID of each order.
-OrderDate: The date the order was placed.
-PropertyID: The unique identifier or ID of each property.
-ProductID: The unique identifier or ID of each product.
-Quantity: The quantity of products ordered.
-Products Table;
-ProductID: The unique identifier or ID of each product.
-ProductName: The name of the product.
-ProductCategory: The category which each product belongs to.
-Price: The unit-price of each product.
-Property-Info Table;
-PropID: The unique identifier or ID of each property.
-PropertyCity: The name of the city where the property is located.
-PropertyState: The name of the state where the property is located.
+1.	Orders Table;
+2.	OrderID: The unique identifier or ID of each order.
+3.	OrderDate: The date the order was placed.
+4.	PropertyID: The unique identifier or ID of each property.
+5.	ProductID: The unique identifier or ID of each product.
+6.	Quantity: The quantity of products ordered.
+7.	Products Table;
+8.	ProductID: The unique identifier or ID of each product.
+9.	ProductName: The name of the product.
+10.	ProductCategory: The category which each product belongs to.
+11.	Price: The unit-price of each product.
+12.	Property-Info Table;
+13.	PropID: The unique identifier or ID of each property.
+14.	PropertyCity: The name of the city where the property is located.
+15.	PropertyState: The name of the state where the property is located.
+
+
 
 ## TAILORED DATA ANALYTICS
 
-How many records are in SM-Stores Orders table
+1. How many records are in SM-Stores Orders table
 2. How many Cities do SM-stores have properties in.
 3. How many orders were placed in each date stated in the orders table.
 4. Return all records where the quantity purchased is above 5.
